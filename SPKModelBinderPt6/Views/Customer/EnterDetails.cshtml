@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>EnterDetails</title>
+</head>
+<body>
+    <div> 
+        <form action="submit" method="post">
+            Customer Code: @Html.TextBox("txtCustomerCode")<br />
+            <br />
+            Customer Name: @Html.TextBox("txtCustomerName")
+            <br /><br />
+            
+                  <input id="Submit1" type="submit" value="submit" />
+        </form>
+    </div>
+</body>
+</html>
