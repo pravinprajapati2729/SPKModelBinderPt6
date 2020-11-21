@@ -7,7 +7,7 @@ using System.Web.Mvc;
 namespace SPKModelBinderPt6.Models
 {
     public class CustomerBinding : IModelBinder
-    {
+    {//testing githubs
         public object BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
         {
             HttpContextBase objContext = controllerContext.HttpContext;
