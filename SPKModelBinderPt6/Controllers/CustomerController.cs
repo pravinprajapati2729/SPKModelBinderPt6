@@ -14,6 +14,7 @@ namespace SPKModelBinderPt6.Controllers
         public ActionResult Enter()
         {
             return View("EnterDetails");
+            //GithubTesting
         }
 
         public ActionResult submit([ModelBinder(typeof(CustomerBinding))]Customer obj)
